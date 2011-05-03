@@ -1,0 +1,144 @@
+I am using this file to familiarize myself with GitHub as a collaborative drafting environment, as explained at http://www.science3point0.com/evomri/2011/05/03/drafting-proposals-in-the-open-sketching-out-project-ideas/ . 
+
+I will start by pasting below the leftovers from the drafting of the above blog post, as per http://species-id.net/w/index.php?title=Draft:Encyclopaedia_of_original_research&oldid=5524 . Unless something is clearly marked as being imported from elsewhere, all of this text is licensed CC0/Public Domain. Comments welcome, preferably via http://en.wikiversity.org/wiki/User_talk:OpenScientist/P2PU_course_2011 .
+
+
+== In focus: The encyclopaedia of original research ==
+
+''Not more than ca. five paragraphs.''
+
+
+*[http://twitter.com/#!/egonwillighagen/statuses/39097468700336128 Yesterday I asked one of my students if she knew what an encyclopedia is, and she said, Is it something like Wikipedia?]
+. merging research projects, and linking them with each other as well as with the concepts and methods behind them.
+
+::'''I would move from here straight to the outlook section, it is running the risk of losing its focus'''
+
+<del>and with any info about the giants, on whose shoulders they have been built</del>
+
+<del>*Copying, forking (e.g. of [http://species-id.net/w/index.php?title=Draft:Encyclopaedia_of_original_research&diff=prev&oldid=5076 this draft]), </del>
+<del>*Mention "Science as a wiki" (including blog repository) and [[Wikis in scholarly publishing]] and [http://friendfeed.com/cameronneylon/c476db70/imo-this-is-possibly-single-most-useful-thing-we "Towards threaded publications"] </del>
+<del>;possibly embed Larry Lessig's talk at CERN, 18 April 2011: http://vimeo.com/22633948 </del>
+<del>:Lessig's talk is licenced under CC-BY; could be used to highlight issues of license stacking and reuse, also with respect to the default license of the EOR</del>
+
+*EOR: [http://www.science3point0.com/coaspedia/index.php/Proposals:Wikimedia_Deutschland/2010/Wissenswert/Wissenschaft_als_Wiki/English earlier version]
+
+
+:comment on "Encyclopaedia" (incl. etymology/ kids; could go to the OLPC part), on it being [http://www.opendefinition.org/ open] and on it being a federation of wikis
+
+*We could perhaps also label it as "GitHub for Science" from now on
+
+::::::<blockquote>''How cool would it be to fork articles, a la Github.'' - [http://friendfeed.com/cameronneylon/c476db70/imo-this-is-possibly-single-most-useful-thing-we Jason Priem]</blockquote>
+
+::::::<blockquote>''We need a GitHub of Science.'' - [http://marciovm.com/i-want-a-github-of-science Marcio van Muhlen]</blockquote>
+
+</del>
+=== Motivation ===
+Including definition of goal. Follow SMART scheme.
+
+=== Aims ===
+
+== Zooming in ==
+Discuss what could become of the project ideas that won't end up in the final proposal, and how we plan to go about this decision.
+
+== Zooming out: Testing open vs. traditional science ==
+
+*Do we need a [http://open-science.pen.io/ manifesto for open science]? (see also Panton Principles and Altmetrics manifesto)
+
+*[http://www.quora.com/What-online-tools-do-scientists-wish-existed-to-facilitate-their-work/answer/Marius-Kempe What online tools do scientists wish existed to facilitate their work?]
+:ORCID-coupled cross-platform reputation system
+
+== Outlook ==
+''Not more than two short paragraphs.''
+
+
+::'''I would kill everything below this'''[[User:Fabiana Kubke|Fabiana Kubke]] 14:24, 3 May 2011 (CEST)
+
+*Mention Workshop 2 (May 10, "Which funding bodies are there that can give financial support, and how do we find appropriate sponsors for our project?") and the [http://en.wikiversity.org/wiki/User:OpenScientist/P2PU_course_2011/Workshop_2 Wikiversity page used to draft the corresponding blog post].
+:Invite crowd-sourcing, with link to a description of a project already funded by that source and ideally with some overlap to the current proposal
+:What role do funders have to play in bringing research into the web age?
+:[http://blog.kickstarter.com/post/5014573685/happy-birthday-kickstarter Kickstarter] - could the subprojects perhaps be submitted there?
+
+*Environments under consideration for drafting the full proposal:
+**A wiki (which)?
+**A Google doc (for export to which format?)
+**Prezi (if funder accepts that - we would like to avoid a rejection on formal grounds) (not suitabel for much more than just a presentation - really. Could be an accompanying feature, but not suitable to draft a formal proposal. [[User:Fabiana Kubke|Fabiana Kubke]]
+**[https://github.com/Daniel-Mietchen/Open-Research-Proposals GitHub] ([http://marciovm.com/i-want-a-github-of-science background]); for export to which format?
+**LaTeX Lab or ScribTeX <-- How would you 'collaborate' on these? ARe there online versions?[[User:Fabiana Kubke|Fabiana Kubke]] 14:24, 3 May 2011 (CEST)
+**?
+
+*Define a place where the actual drafting begins; ignore formatting for the moment; decision about writing environment due May 10
+
+Contributors (alphabetical order): {{#linkedcontributorlist: }}.
+
+== Notes ==
+
+=== Quotes ===
+''See also [http://www.science3point0.com/coaspedia/index.php/User:Daniel_Mietchen/Talks/Slides/Quotes http://www.science3point0.com/coaspedia/index.php/User:Daniel_Mietchen/Talks/Slides/Quotes].''
+
+* Sandra Bajjalieh: "All of these issues, including the trend towards judging scientists on where they publish instead of what they publish, would be solved if NSF/NIH provided and serviced a highly searchable website onto which people posted results as they obtained them. Search engine capabilities make this entirely feasible. The following features would make the system far superior to the current one of publishing in journals. 1. The comments of interested readers would be added to the posting. Thus there would be peer review. 2. Additional data and revisions that respond to comments could be added. 3. Entry time stamps would solve any issues of priority. 4. The number of "hits" and downloads a link got (similar to the information PLoS One provides for each paper) could serve as a measure of it's interest. This solution is so obvious and the benefits so numerous (NIH program directors would have current updates of research progress, no more publication costs, the ability to imbed movies and animations....)that it's really difficult to understand why there hasn't been more of a move to implement it. Do we, as a community, really want a few people regulating the flow of scientific information?" ([http://www.nature.com/news/2011/110427/full/472391a.html Sandra Bajjalieh])
+
+* Paulo Freire: "At the point of encounter there are neither utter ignorance nor perfect sages; there are only people who are attempting, together, to learn more than they now know." 
+
+* Larry Lessig's talk at CERN, 18 April 2011: http://vimeo.com/22633948 (Lessig's talk is licenced under CC-BY) 
+:"copyright is a regulation by the state intended to change a regulation by the market; it's an exclusive right, it's a monopoly right, a property right granted by the state which is necessary to solve an inevitable market failure." [http://motherboard.tv/2011/4/25/lessig-copyright-isn-t-just-hurting-creativity-it-s-killing-science-video--2 ... in a more colloquial nutshell by Alex Pasternack: Copyright isn't just hurting creativity: it's killing science] 
+:: Notes: If we get above the din of this battle is that both sides agree that copyright is necessary for creative works - There is a place for sensible copyright policy but, however, not only artists rely upon copyright. Publishers do too rely upon copyright - the economic problem for publishers is different from that for the artists. We've been fighting a battle where copyright is essential but not on science where copyright is not essential. There is a trouble that few see - How accessible is information for the public? What does it mean for info to be available on the internet? It is only freely accessible if you are part of the 'elite'. Here copyright is placed to benefit the publishers - not the authors - no author has a business model that is built around profiting from this copyright. Does this limitation serve any of the purposes of copyright? What is the publishers objective? To disseminate knowledge or to profit from it? 
+::JSTOR archive: has become increasingly criticized because of the cost involved in accessing the articles in the archive. 
+::Lessig asks: Can we do better? 
+::Open access self archiving movement
+::Open access publishing movement:
+::Some open is free (as in free speech) some open access is free as in you dont pay for it but other copyright rules apply.
+::Science Commons: "broader strategy for producing the information architecture that science needs" as per the 4 principles of Open Science (check on site).
+*Read write creativity / read-write communities
+*"Sharing is at the core of the architecture of the net"
+::Note by Claudia Koltzenburg:  [by whom?] Barbara van Schewick points out: On the Internet architecture level, due to corporatism, "enclosures" are rampant. The principle of network neutrality that characterized the Internet in its beginning, thirty years ago, has been put at risk particularly by profit-making interests of network providers, observes Barabara van Schewick. The effects of this amount to what economists who think in terms of traditional market economy would call a "market failure". Van Schewick holds that we (and the regulators) need to protect the factors that allowed widespread application innovation in the past (modularity, layering and the end-to-end arguments). These factors made for the openness at the core of the Internet until the early 1990s. Van Schewick recommends let users choose, and practice as much 'application agnosticism' as possible. Internet users today are mostly controlled by flatrate offers and application bundles that leave no alternatives to choose from openly. Van Schewick's argument says that users should indeed be allowed to get a sense of how much they need for what they want to do on the internet – and yet maintain a predictability of one's bills. -- see Barbara van Schewick. Introduction. In: Internet Architecture and Innovation. Cambridge, Massachusetts/ London, England: MIT Press, 2010, 1-15. http://mitpress.mit.edu/books/chapters/0262013975intro1.pdf (see also http://p2pfoundation.net/Internet_Architecture_and_Innovation) -- '''''in this vein, what is the "flatrate" in academic/scholarly/scientific publishing today that lures into control?''''' --[[User:Claudia Koltzenburg|Claudia Koltzenburg]] 12:12, 1 May 2011 (CEST)
+
+*"In the academy [..] we need to recognise an ethical obligation [...] which is at the core of our mission which is universal access to knowledge." Entails: work needs to be free (this should be an ethical point) - We do not need (and should not practice) exclusivity about our work. 
+*models of access that block access except to a paying elite and discourages innovation.
+
+* Dorothea Salo: "At the risk of sounding all commie and stuff: we work toward a collective openness, or we die off one by one as the business model sustaining us as well as publishers crumbles to bits." http://scientopia.org/blogs/bookoftrogool/2010/09/16/not-hanging-separately/
+
+* Douglas Rushkoff: As soon as a network is in the hands of policy makers and their funders, this network loses its power to effect change. His conclusion is: "Create new forms that exist beyond any authority's ability to grant them protection", The Next Net. 1 March 2011. Shareable - Sharing by Design. http://shareable.net/blog/the-next-net
+
+Vannevar Bush. As we may think. [http://web.mit.edu/STS.035/www/PDFs/think.pdf The Atlantic Monthly, 1945]
+*"There is a growing mountain of research. But there is increased evidence that we are being bogged down today as specialization extends. The investigator is staggered by the findings and conclusions of thousands of other workers - conclusions which he cannot find time to grasp, much less to remember, asthey appear. Yet specialization becomes increasingly necessary for progress, and the effort to bridge between disciplines is correspondingly superficial"
+*"
+Professionally our methods of transmitting and reviewing the results of research are generations old and
+by now are totally inadequate for their purpose.:
+
+*". The summation of human experience us being expanded at a prodigious rate, and
+the means we use for threading through the consequent maze to the momentarily important item is the
+same as was used in the days of square-rigged ships."
+*"
+A record, if it is to be useful to science, must be continuously extended, it must be stored, and above all it
+must be consulted"
+*"Thus far we seem to be worse
+off than before - for we can enormously extend the record; yet even in its present bulk we can hardly
+consult it. This is a much larger matter than merely the extraction of data for the purposes of scientific
+research; it involves the entire process by which man profits by his inheritance of acquired knowledge."
+
+== Draft of blog post 3: funding ==
+
+== Draft of actual proposal ==
+''Use SMART approach: Specific/ 
+Measurable/ 
+Agreed/ 
+Realistic/ 
+Time constrained.''
+
+=== Abstract ===
+
+=== Similar attempts ===
+
+=== Roadmap ===
+
+*Mention subprojects
+
+=== Potential problems ===
+*[http://wikimania2011.wikimedia.org/wiki/Submissions/Barriers_and_opportunities_for_expert_participation_in_Wikipedia:_Results_from_a_survey Barriers to expert participation]
+**[http://cameronneylon.net/blog/michael-nielsen-the-credit-economy-and-open-science/ Giving credit is key], and if wiki contributions (or any other science 2.0 activities) would be recognized in academic career terms (#altmetrics; requires [http://marciovm.com/michael-nielsen-on-the-future-of-science functional reputation systems]), scientists would be willing to reallocate their time accordingly
+
+
+*'''What does "publishing" mean in a wiki context?''' The current use of the term "publishing" in itself can be taken as an illustration of how commercial codes and practices seeping into academic culture have not been counteracted successfully since the invention of the Web. In academic CVs, research output in print only (and in electronic but non-open access format) still figures as a "publication", even though the meaning of "to publish" as "make generally known" and "disseminate to the public" has seen fundamental and indeed groundbreaking changes with the Web as a publishing platform. Indeed, "the public" itself has changed fundamentally because today, a "publication" can be made accessible on the web '''without''' [http://scientopia.org/blogs/bookoftrogool/2010/03/15/battle-of-the-opens/ "a subscription, per-article, or other fee ... by the reader or the reader's proxy (e.g. a library)"]. Had academic institutions been more interested in the benefit offered by such opportunities, publishing openly would be much more widely accepted today. In this light, nothing should be claimed to be a "publication" any longer unless it is open, maybe even '''in the sense of Open publishing''': [http://en.wikipedia.org/w/index.php?title=Special:Cite&page=Open_publishing&id=383242580 "Open publishing is a process of creating news or other content that is transparent to the readers. They can contribute a story and see it instantly appear in the pool of stories publicly available. Those stories are filtered as little as possible to help the readers find the stories they want. Readers can see editorial decisions being made by others. They can see how to get involved and help make editorial decisions. If they can think of a better way for the software to help shape editorial decisions, they can copy the software because it is free and change it and start their own site. If they want to redistribute the news, they can, preferably on an open publishing site."]
+
+=== Notes ===
+*Wiki stats tools: [http://stats.grok.se/en/201101/Magnetic%20resonance%20imaging Article-level traffic stats], [http://www.trendingtopics.org/page/Magnetic_resonance_imaging Trending topics], [http://www.wikirage.com/ Edit stats], [http://unit1.conus.info:8080/en.wikipedia.stats/ Edit stats for new pages]
