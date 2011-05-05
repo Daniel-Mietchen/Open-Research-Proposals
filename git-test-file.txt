@@ -154,3 +154,4 @@ Time constrained.''
 *Museum fish MRI & Tierstimmenarchiv
 *[http://ff.im/CCtKf Micropayments for culture]  - similar [http://friendfeed.com/open-science-summit-2010/a3a7a6ca/sciflies-microfinancing-for-science for science]
 *[http://chronicle.com/blogs/profhacker/using-google-docs-forms-to-run-a-peer-review-writing-workshop/33107 using Google docs]
+*Open Science Games? Any equivalent to open vs. public peer review?
