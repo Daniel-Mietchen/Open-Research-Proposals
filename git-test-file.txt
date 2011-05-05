@@ -12,7 +12,7 @@ http://en.wikiversity.org/wiki/User_talk:OpenScientist/P2PU_course_2011 .
 == In focus: The encyclopaedia of original research ==
 
 ''Not more than ca. five paragraphs.''
-
+'' Adding a line here to see if I can '''
 
 *[http://twitter.com/#!/egonwillighagen/statuses/39097468700336128 Yesterday I asked one of my students if she knew what an encyclopedia is, and she said, Is it something like Wikipedia?]
 . merging research projects, and linking them with each other as well as with the concepts and methods behind them.
