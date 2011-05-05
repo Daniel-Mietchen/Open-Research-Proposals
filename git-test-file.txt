@@ -5,6 +5,8 @@ http://www.science3point0.com/evomri/2011/05/03/drafting-proposals-in-the-open-s
 I will start by pasting below the leftovers from the drafting of the above blog post, as per 
 http://species-id.net/w/index.php?title=Draft:Encyclopaedia_of_original_research&oldid=5524 . 
 
+We will then turn this into LaTeX format and continue drafting that way. Not yet entirely sure of the mechanics underlying that. 
+
 Unless something is clearly marked as being imported from elsewhere, all of this text is licensed CC0/Public Domain. Comments welcome, preferably via 
 http://en.wikiversity.org/wiki/User_talk:OpenScientist/P2PU_course_2011 .
 
