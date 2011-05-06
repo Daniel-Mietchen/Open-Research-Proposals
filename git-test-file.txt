@@ -156,3 +156,4 @@ Time constrained.''
 *[http://chronicle.com/blogs/profhacker/using-google-docs-forms-to-run-a-peer-review-writing-workshop/33107 using Google docs]
 *Open Science Games? Any equivalent to open vs. public peer review?
 *[http://friendfeed.com/kubke/ae9078a8/rt-bestgrid-6pm-tonight-streaming-live eResearch talk by Mark Gahegan]
+*[http://museumgam.es/ Museum metadata games], via [http://twitter.com/mia_out @mia_out]
