@@ -64,7 +64,7 @@ Discuss what could become of the project ideas that won't end up in the final pr
 *Mention Workshop 2 (May 10, "Which funding bodies are there that can give financial support, and how do we find appropriate sponsors for our project?") and the [http://en.wikiversity.org/wiki/User:OpenScientist/P2PU_course_2011/Workshop_2 Wikiversity page used to draft the corresponding blog post].
 :Invite crowd-sourcing, with link to a description of a project already funded by that source and ideally with some overlap to the current proposal
 :What role do funders have to play in bringing research into the web age?
-:[http://blog.kickstarter.com/post/5014573685/happy-birthday-kickstarter Kickstarter] - could the subprojects perhaps be submitted there?
+:[http://blog.kickstarter.com/post/5014573685/happy-birthday-kickstarter Kickstarter] - could the subprojects perhaps be submitted there, or to similar places (indiegogo, and rockethub)?
 
 *Environments under consideration for drafting the full proposal:
 **A wiki (which)?
@@ -157,3 +157,27 @@ Time constrained.''
 *Open Science Games? Any equivalent to open vs. public peer review?
 *[http://friendfeed.com/kubke/ae9078a8/rt-bestgrid-6pm-tonight-streaming-live eResearch talk by Mark Gahegan]
 *[http://museumgam.es/ Museum metadata games], via [http://twitter.com/mia_out @mia_out]
+*Filipe Cruz, in Skype chat of May 6, at 19:11 - superfabs: there are a few sites dedicated to harboring science papers and journals in digital free for download formats. would be nice to do a list of them atleast, to analyze and figure out how to better complement them? its similar work i think
+:Link provided a bit later: [http://xdatelier.org/2010/12/11/open-access-repositories/ http://xdatelier.org/2010/12/11/open-access-repositories/]
+*More from that chat: 
+scannopolis 19:16 
+@superfabs, I think that the aim of the project is too wide maybe?
+Fabiana Kubke 19:17 
+@scann can you be more specific?
+Jonas Öberg 19:18 
+Worthwhile to note in this discussion is that Paul Boshears has been thinking about a project to extend and make Open Journal System (OJS) more suitable for accepting non-text material. Might tie in with other open access projects.
+scann 19:18 
+@fabs, yes, I think maybe you need to define what are you going to consider "science", or in which areas you are going to primarily focus on to work
+19:18
+for example, the scientist who come from humanistic or social sciences network are more resistant to work with things like wikis
+Ian Sullivan 19:20 
+and the scientists from many of the hard sciences will need hosting for the large datasets that make up a lot of their source material
+Fabiana Kubke 19:20 
+@scann Ah, I see - I was thinking about that earlier today - how do I phrase this to say "as a first step we will do this in this area" - I thought concentrating on one specific (I was thinking Chagas would be a good candidate - I am more familiar with some implications)
+*Ian Sullivan: http://grants.gov/  in the US has a comprehensive listing for all grant opportunities open at the federal level
+*http://www.skollfoundation.org/
+*[https://creativecommons.org/weblog/entry/23831 https://creativecommons.org/weblog/entry/23831]
+*[http://www.jamendo.com/en/creativecommons Jamendo] - company based on distributing CC-licensed music
+*[http://startl.org/ Startl] - startup support for socially responsible businesses
+
+
