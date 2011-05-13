@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="My house building project" company="Myself LLC" webLink="www.myselfllc.net" view-date="2011-11-06" view-index="2" gantt-divider-location="369" resource-divider-location="322" version="2.0">
+<description><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.]]></description>
+<view zooming-state="default:6" id="gantt-chart"/>
+<view id="resource-table">
+<field id="0" name="Name" width="54" order="0"/>
+<field id="1" name="Default role" width="45" order="1"/>
+</view>
+<!-- -->
+<calendars>
+<day-types>
+<day-type id="0"/>
+<day-type id="1"/>
+<calendar id="1" name="default">
+<default-week sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+<overriden-day-types/>
+<days/>
+</calendar>
+</day-types>
+<date year="2006" month="2" date="14"/>
+</calendars>
+<tasks color="#99ccff">
+<taskproperties>
+<taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+<taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+<taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+<taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+<taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+<taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+<taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+<taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+<taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+<taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+</taskproperties>
+<task id="0" name="Server architecture" color="#99ccff" meeting="false" start="2012-01-02" duration="26" complete="78" priority="1" expand="true">
+<task id="9" name="Create draft of architecture" color="#99ccff" meeting="false" start="2012-01-02" duration="10" complete="100" priority="1" expand="true">
+<depend id="10" type="2" difference="0" hardness="Strong"/>
+<depend id="12" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="10" name="Reserve domain" color="#99ccff" meeting="false" start="2012-01-16" duration="15" complete="75" priority="1" expand="true">
+<depend id="17" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="17" name="Install and configure software" color="#000000" meeting="true" start="2012-02-06" duration="1" complete="0" priority="1" expand="true">
+<depend id="1" type="2" difference="0" hardness="Strong"/>
+</task>
+<task id="23" name="Maintenance" color="#99ccff" meeting="false" start="2012-01-12" duration="1" complete="0" priority="1" expand="true"/>
+</task>
+<task id="24" name="Import of OA content" color="#99ccff" meeting="false" start="2012-01-12" duration="1" complete="0" priority="1" expand="true">
+<task id="25" name="Seeding" color="#99ccff" meeting="false" start="2012-01-12" duration="1" complete="0" priority="1" expand="true"/>
+<task id="26" name="Ongoing" color="#99ccff" meeting="false" start="2012-01-12" duration="1" complete="0" priority="1" expand="true"/>
+</task>
+<task id="27" name="Software development" color="#99ccff" meeting="false" start="2012-01-12" duration="1" complete="0" priority="1" expand="true">
+<task id="28" name="Importing tool" color="#99ccff" meeting="false" start="2012-01-12" duration="1" complete="0" priority="1" expand="true"/>
+<task id="29" name="Linking tool" color="#99ccff" meeting="false" start="2012-01-12" duration="1" complete="0" priority="1" expand="true"/>
+<task id="30" name="Semantification" color="#99ccff" meeting="false" start="2012-01-12" duration="1" complete="0" priority="1" expand="true"/>
+<task id="31" name="Community features" color="#99ccff" meeting="false" start="2012-01-12" duration="1" complete="0" priority="1" expand="true"/>
+<task id="32" name="Lab notebooks" color="#99ccff" meeting="false" start="2012-01-12" duration="1" complete="0" priority="1" expand="true"/>
+<task id="33" name="Exporting tool" color="#99ccff" meeting="false" start="2012-01-12" duration="1" complete="0" priority="1" expand="true"/>
+</task>
+<task id="34" name="Community management" color="#99ccff" meeting="false" start="2012-01-12" duration="1" complete="0" priority="1" expand="true"/>
+</tasks>
+<resources>
+<resource id="1" name="NA" function="Default:0" contacts="jack.house@myselfllc.net" phone="0044 077345456"/>
+<resource id="2" name="NA" function="0" contacts="mickelangelo@heaven.net" phone="078 9059056"/>
+<resource id="3" name="NA" function="1" contacts="tom.white@myselfllc.net" phone="07978978978"/>
+</resources>
+<allocations>
+<allocation task-id="9" resource-id="2" function="0" responsible="true" load="100.0"/>
+<allocation task-id="9" resource-id="1" function="Default:1" responsible="false" load="50.0"/>
+<allocation task-id="10" resource-id="2" function="0" responsible="true" load="100.0"/>
+</allocations>
+<vacations>
+<vacation start="2009-02-02" end="2009-02-09" resourceid="1"/>
+</vacations>
+<taskdisplaycolumns>
+<displaycolumn property-id="tpd3" order="0" width="75"/>
+<displaycolumn property-id="tpd4" order="1" width="75"/>
+<displaycolumn property-id="tpd5" order="2" width="75"/>
+</taskdisplaycolumns>
+<previous/>
+<roles roleset-name="Default"/>
+<roles>
+<role id="0" name="Architect"/>
+<role id="1" name="Bricklayer"/>
+<role id="2" name="Foreman"/>
+<role id="3" name="Decorator"/>
+<role id="4" name="Excavator operator"/>
+<role id="5" name="Roofer"/>
+</roles>
+</project>
