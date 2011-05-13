@@ -1,5 +1,12 @@
-This GitHub repository hosts the open draft for a project proposal, as described at 
-http://www.science3point0.com/evomri/2011/05/03/drafting-proposals-in-the-open-sketching-out-project-ideas/ . 
+This GitHub repository serves the collaborative drafting of a project proposal on an Encyclopaedia of (and GitHub for) science, 
+as explained at https://github.com/Daniel-Mietchen/Open-Research-Proposals . 
+
+The .tex file was started by pasting below the leftovers from the 
+\href{http://species-id.net/w/index.php?title=Draft:Encyclopaedia_of_original_research&oldid=5524}{drafting of the above blog post} . 
+
+We then turned this into LaTeX format and plan to continue drafting that way~-- please excuse any strange formatting you may see in here until late May 20, 2011.
+
+Unless something is clearly marked as being imported from elsewhere, all of this text is licensed CC0/Public Domain. Comments welcome, preferably via \href{http://en.wikiversity.org/wiki/User_talk:OpenScientist/P2PU_course_2011}{our project's homepage}.
 
 Comments and suggestions *very* welcome.
 
