@@ -395,7 +395,7 @@
      \let\@oddhead\@empty
      \let\@evenhead\@empty
      \def\@oddfoot{\footnotesize\itshape
-       Preprint submitted to \ifx\@journal\@empty Elsevier
+       Draft proposal, to be submitted to \ifx\@journal\@empty \#\#\#Funder to be added \#\#\#
        \else\@journal\fi\hfill\today}%
      \let\@evenfoot\@oddfoot}
 
