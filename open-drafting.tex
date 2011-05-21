@@ -1,62 +1,120 @@
-\documentclass{article}
-\usepackage{authblk}
-\usepackage{hyperref}
+% Note: 
+% This class file is based on elsarticle-template-harv.tex, 
+% which can be reused under a latex license, as per 
+% http://www.latex-project.org/lppl.txt . 
+% See http://www.elsevier.com/wps/find/authorsview.authors/elsarticle for details.
+%
+\documentclass[final,authoryear,3p]{elsarticle-open-drafting} 
+%\usepackage{authblk}
+%% Hyperrefs
+\usepackage[colorlinks=true, pdfborder={0 0 0},pdftex]{hyperref}
+
+%%Audiovideo embedding & 3D
+\usepackage{geometry}
+\geometry{verbose,letterpaper}
+\usepackage{movie15}
+
+%% The amssymb package provides various useful mathematical symbols
+\usepackage{amssymb}
+\usepackage{textcomp} % for \textmu
+%\usepackage{ftnright}% for footnotes in twocolumn mode
+%\interfootnotelinepenalty=100
+%\usepackage[binary]{SIunits}
+%% The amsthm package provides extended theorem environments
+%% \usepackage{amsthm}
+
+%% The lineno packages adds line numbers. Start line numbering with
+%% \begin{linenumbers}, end it with \end{linenumbers}. Or switch it on
+%% for the whole article with \linenumbers.
+\usepackage{lineno}
+\usepackage{setspace} %allows to reduce the linespacing
+%\linenumbers
+%\bibliographystyle{elsarticle-harv}
 
 \begin{document}
-\title{{\LARGE \bf Committed to Science}\\-- Scientific publishing in the web age~--\\ \href{http://en.wikiversity.org/wiki/User:OpenScientist/P2PU_course_2011}{DRAFT}}
+
+%\maketitle
+\begin{frontmatter}
+	\title{{\LARGE \bf Committed to Science}\\-- Scientific publishing in the web age~--\\ \href{http://en.wikiversity.org/wiki/User:OpenScientist/P2PU_course_2011}{DRAFT}}
 %What about doing away with listing single authors, and choosing a group alies
-\author{\href{https://github.com/Daniel-Mietchen/Open-Research-Proposals/graphs/impact}{The Open Science Community}}
-%
-%\author[1, 2]{Konrad U. F{\"o}rstner}
-%\affil[1]{Institute for Molecular Infection Biology, University of W{\"u}rzburg, D-97080 W{\"u}rzburg}
-%\affil[2]{Research Centre for Infectious Diseases, University of W{\"u}rzburg, D-97080 W{\"u}rzburg, Germany}
+	\author{\href{https://github.com/Daniel-Mietchen/Open-Research-Proposals/graphs/impact}{The Open Science Community}}
+	%
+	%\author[1, 2]{Konrad U. F{\"o}rstner}
+	%\affil[1]{Institute for Molecular Infection Biology, University of W{\"u}rzburg, D-97080 W{\"u}rzburg}
+	%\affil[2]{Research Centre for Infectious Diseases, University of W{\"u}rzburg, D-97080 W{\"u}rzburg, Germany}
 
-%\author[3]{Claudia Koltzenburg}
-%\affil[3]{Managing editor of \href{Cellular Therapy and Transplantation (CTT)}{Cellular Therapy and Transplantation (CTT)}}
+	%\author[3]{Claudia Koltzenburg}
+	%\affil[3]{Managing editor of \href{Cellular Therapy and Transplantation (CTT)}{Cellular Therapy and Transplantation (CTT)}}
 
-%\author[4]{M Fabiana Kubke}
-%\affil[4]{Department of Anatomy with Radiology, University of Auckland}
+	%\author[4]{M Fabiana Kubke}
+	%\affil[4]{Department of Anatomy with Radiology, University of Auckland}
 
-%\author[5]{Daniel Mietchen}
-%\affil[5]{\href{http://www.science3point0.com/evomri/}{Science 3.0}}
+	%\author[5]{Daniel Mietchen}
+	%\affil[5]{\href{http://www.science3point0.com/evomri/}{Science 3.0}}
 
-\date{\today}
+	\date{\today}
 
-\maketitle
+	\begin{abstract}
+		\begin{itemize}
+			\item This file serves the collaborative drafting of a project proposal on an {\bf Encyclopaedia of (and GitHub for) science}, 	as explained in \href{http://www.science3point0.com/evomri/2011/05/03/drafting-proposals-in-the-open-sketching-out-project-ideas/}{this blog post}. 
 
-\begin{abstract}
+			\item The .tex file was started by pasting below the leftovers from the \href{http://species-id.net/w/index.php?title=Draft:Encyclopaedia_of_original_research&oldid=5524}{drafting of the above blog post} . 
 
-This file serves the collaborative drafting of a project proposal on an {\bf Encyclopaedia of (and GitHub for) science}, 
-as explained in \href{http://www.science3point0.com/evomri/2011/05/03/drafting-proposals-in-the-open-sketching-out-project-ideas/}{this blog post}. 
+			\item We then turned this into LaTeX format and plan to continue drafting that way~-- please excuse any strange formatting you may see in here until late May 20, 2011.
 
-The .tex file was started by pasting below the leftovers from the 
-\href{http://species-id.net/w/index.php?title=Draft:Encyclopaedia_of_original_research&oldid=5524}{drafting of the above blog post} . 
+			\item Unless something is clearly marked as being imported from elsewhere, all of this text is licensed CC0/Public Domain, while the \LaTeX code is available under the \href{http://www.latex-project.org/lppl.txt }{LaTeX license}, with the origin being the \href{http://www.elsevier.com/wps/find/authorsview.authors/elsarticle}{Elsevier article bundle}. 
+			
+			\item Comments {\bf very} welcome, preferably via \href{http://en.wikiversity.org/wiki/User:OpenScientist/Open_grant_writing_-_Encyclopaedia_of_original_research}{our project's homepage}.
 
-We then turned this into LaTeX format and plan to continue drafting that way~-- please excuse any strange formatting you may see in here until late May 20, 2011.
+		
+		\end{itemize}
+	\end{abstract}
+	
+	\begin{keyword}
+		Science as a wiki \sep GitHub for science \sep open access \sep Creative Commons
 
-Unless something is clearly marked as being imported from elsewhere, all of this text is licensed CC0/Public Domain. Comments welcome, preferably via \href{http://en.wikiversity.org/wiki/User:OpenScientist/Open_grant_writing_-_Encyclopaedia_of_original_research}{our project's homepage}.
+	\end{keyword}
 
-
-
-\end{abstract}
+\end{frontmatter}
 \newpage
 \tableofcontents
+%Third-level headings will be removed from TOC when drafting is finished.
 
 \section{Introduction}
 \subsection{Project description}
 \subsection{Background}
+\subsubsection{Scientific publishing}
+\subsubsection{Version control}
+\subsubsection{Related projects}
+
 \subsection{Aims, goals and objectives}
-\subsection{Duration of the project}
+
+\subsection{Timeline}
+
+\subsection{Sustainability of the project}
 
 \section{Project team}
+\subsection{Applicants}
+\subsection{Partners}
+
 \section{Project organisation}
 \section{Description of work}
 \subsection{Work packages (subtasks)}
 \subsection{Timeline}
 \subsection{Deliverables}
+
 \section{Resource requirements}
 \section{Budget}
+\section{Acknowledgements}
+\section{References}
+%DM: I would actually prefer to use hyperlinks instead of classical endnotes
+
+\section{Figures}
+%This section is only kept separate during the drafting phase. The figures are to be included in the text as flow permits.
+
 \section{Notes from earlier stages of the drafting process}
+%These notes mostly originated \href{http://species-id.net/wiki/Draft:Encyclopaedia_of_original_research}{on the wiki} and will be woven into the proposal or discarded during the drafting process.
+
 *\href{http://www.wired.com/wiredscience/2011/05/free-science-one-paper-at-a-time-2/all/1}{Nice piece by David Dobbs about Jonathan Eisen's attempts to publish his father's papers online} - could be cited on several points, including \href{http://knowledgeblog.org/}{Knowledge Blog} ("So what could be more fitting than to revamp science through a platform explicitly built to be revised, commented on, and updated?") and the \href{http://www.ariadne.ac.uk/issue7/fytton/}{four essential functions of science} that are currently wrapped up in the scientific paper: registration, certification, dissemination, and preservation
 
 Also cites Antonio Panizzi and mentions ADNI and Mendeley ("Many of the metrics and connections between papers aren’t accessible on the desktop, presumably because they require the server’s data and processing power, and finding them on the web interface feels vaguely opaque.").
@@ -230,6 +288,7 @@ Fabiana Kubke 19:20
 *\href{http://www.ccc.de/en/updates/2011/kulturwertmark}{KulturWertMark}
 *FigShare as virtual museum?
 *\href{http://ff.im/D6rQ0}{Discussion of Gantt chart tools}
+*]\href{http://dx.doi.org/10.1038/npre.2010.4603.1}{Community building in ecology}
 
 
 %\begin{thebibliography}
