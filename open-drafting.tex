@@ -93,6 +93,11 @@ Our ultimate goal is to place the existing openly licensed scientific literature
 \tableofcontents
 %Third-level headings will be removed from TOC when drafting is finished.
 
+% Idea for Table of Contents of the proposal: use an arrangement like
+% http://wiki.sugarlabs.org/go/File:XO-menu.png and make it clickable.
+% Dunno yet how clickable image maps work under LaTeX but background images seem to work fine:
+% http://stackoverflow.com/questions/240097/how-to-create-a-background-image-on-titlepage-with-latex .
+
 \section{Introduction}
 \label{section:intro}
 {\it See also section \ref{section:intro2} for an alternative structuring of the introduction.}
@@ -383,7 +388,7 @@ Peer review takes place very rarely when it matters most - when the details of t
 
 Similar for data analysis and interpretation.
 
-Pre-pulication peer review is slow.
+Pre-publication peer review is slow.
 % See also http://rsa.cwrl.utexas.edu/node/5240
 
 \subsection{Outreach}
@@ -429,7 +434,7 @@ The project aims at a bit of all of these:
 \begin{itemize}
 	\item Encyclopaedia of original research
 	\item Science as a wiki - i.e. collaboratively updatable database of interlinked articles
-	\item GitHub for Science - distributed version control (recent \href{http://bacpathgenomics.wordpress.com/2011/06/13/e-coli-data-released-under-creative-commons-0-license/}{example}: \href{https://github.com/ehec-outbreak-crowdsourced/BGI-data-analysis/wiki}{E. coli O104:H4 analyses on GitHub})
+	\item GitHub for Science - distributed version control (recent \href{http://bacpathgenomics.wordpress.com/2011/06/13/e-coli-data-released-under-creative-commons-0-license/}{example}: \href{https://github.com/ehec-outbreak-crowdsourced/BGI-data-analysis/wiki}{E. coli O104:H4 analyses on GitHub}); problem to solve: WISIWYG for Git (otherwise wider adoption unlikely)
 	\item CC-BY - reusably licensed; forkability
 	\item Lab notebook - science as it happens, rather than "scientists found out"
 \end{itemize}
@@ -512,12 +517,78 @@ http://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/ But only 10\% of PMC belongs i
 http://www.biomedcentral.com/info/about/datamining/ In this sense, libre OA removes custody barriers that gratis OA may leave in place.  The difference between gratis and libre OA isn't limited to permission barriers; permission barriers can create downstream possession and custody barriers.''}
 
 \subsection{Illustrating use cases of open scientific information beyond scholarly contexts}
-\subsubsection{Medical information for rural areas in the developing world}
+\subsubsection[Health on a stick]{Health on a stick~-- medical information for rural areas in the developing world}
+% mention \href{http://laptop.org}{One Laptop Per Child  project} (OLPC) somewhere
+%add figure showing XO ?
+
+\begin{figure}[!h]
+	\begin{center}
+		%http://wiki.laptop.org/go/File:Bucolico-full.jpg
+
+		\includegraphics[width=8cm]{Images/Bucolico-full-jpg2png.png}
+		\includegraphics[width=8cm]{Images/SugaronastickMirabelle-cropped.png}
+		\caption{
+		{\bf Sugar on a stick.} {\bf Left}: The
+		\href{http://laptop.org}{One Laptop Per Child  project} (OLPC) project 
+		provides children in the developing world with computers,
+		so as to support their learning with Open Educational Resources
+		and to prepare them for a life in an interconnected world.
+		Source: \href{http://wiki.laptop.org/index.php?title=File:Bucolico-full.jpg&oldid=236563}{http://wiki.laptop.org/go/File:Bucolico-full.jpg}. License: \href{http://creativecommons.org/licenses/by-sa/3.0/}{CC-BY-SA}.
+		{\bf Right}: 
+		\href{http://sugarlabs.org/}{Sugar}~-- 
+		the Fedora-based operating system specifically designed for OLPC computers~-- 
+		is \href{http://spins.fedoraproject.org/soas/}{available on USB keys} 
+		to facilitate development, testing and outreach. 
+		We want to create a variant of 
+		such sticks that hosts medical information distilled 
+		from the Encyclopaedia of original research in a way compatible with inclusion in OLPC depoyments.
+		Source: \href{http://wiki.sugarlabs.org/index.php?title=File:SugaronastickMirabelle.png&oldid=52111}{http://wiki.sugarlabs.org/go/File:SugaronastickMirabelle.png}. License: \href{http://creativecommons.org/licenses/by/3.0/}{CC-BY}.
+		}
+		\label{Figure:Sugaronastick}
+	\end{center}
+\end{figure}
+
+
+This subproject is concerned with medical information contained in the Encyclopaedia of original research, which shall be distributed to rural areas in the developing world. 
+
+The word "encyclopaedia" originally referred to a collection of contemporary knowledge 
+curated for the same purpose that XO laptops were designed for: educating children.
+We want to add a spin to this classical educational paradigm and use XO deployments with Health-on-a-stick versions 
+of the Encyclopaedia of original research to reach out across age groups in remote populations.
+
+%mention OLPC needs Khan Academy
+
+
 \begin{itemize}
 	\item \href{http://www.openzim.org}{openZim} for slicing up wikis for offline use; see also \href{http://en.wikipedia.org/wiki/Wikipedia:WikiProject_Wikislice}{Wikipedia's WikiProject Wikislice}
 	\item \href{http://lists.wikimedia.org/pipermail/foundation-l/2008-February/038623.html}{distributed version control} via \href{http://wikipediafs.sourceforge.net/}{WikipediaFs} (on something like GitHub)? The documentation states ``For example, it would be possible to use WikipediaFS to perform a massive content migration from an existing site to a Mediawiki''. See also \href{http://zikoblog.wordpress.com/2011/05/29/wikipedia-offline-2/}{other tools for using Wikipedia offline}
-
+	\item language issues
+	\item \href{http://wiki.laptop.org/go/WikiPack}{WikiPack}
 \end{itemize}
+
+%possibly useful illustrations
+%http://wiki.laptop.org/go/File:Cover-Edit-990x660.jpg
+%http://wiki.laptop.org/go/File:Nepal.JPG
+%http://wiki.laptop.org/go/File:20091028-100_7483-990x660.jpg
+%http://wiki.laptop.org/go/File:Sugar.png
+%http://wiki.laptop.org/go/File:Pic_7.jpg (with stick)
+%http://wiki.laptop.org/go/File:Olpc-countries-jun-2010.jpg
+%http://wiki.laptop.org/go/File:Agya-olpc4.jpg
+%http://wiki.laptop.org/go/File:TrackingSensor.jpg
+%http://wiki.laptop.org/go/File:20100331-10-03-31OLPCSchoolVisit019.jpg
+%http://wiki.laptop.org/go/File:3080618798_726dedf5f2_o.jpg
+%http://wiki.laptop.org/go/File:20081031-Artigas-Uruguay.jpg
+%http://wiki.laptop.org/go/File:Nancy_with_her_XO_outdide.jpg
+%http://wiki.laptop.org/go/File:Drawn_on_Antintorona_blackboard_OLPC_logo.JPG
+%http://wiki.laptop.org/go/File:Mongolia.jpg
+%http://wiki.laptop.org/go/File:Oceania-beach.jpg
+%http://wiki.laptop.org/go/File:Sierra_leone.jpg
+%http://wiki.laptop.org/go/File:Serraleao.JPG
+%http://wiki.laptop.org/go/File:XO-a-500.jpg
+%http://wiki.sugarlabs.org/go/File:XO-menu.png
+
+
+
 \paragraph{Potential side project: \href{http://figshare.com/}{FigShare}/ \href{http://www.gbif.org/communications/news-and-events/showsingle/article/new-incentive-for-biodiversity-data-publishing/}{GBIF-IPT} for OLPC} 
 Here, kids could upload images and sensor data as they explore their environment; \href{http://dx.doi.org/10.3897/zookeys.89.903}{sample case} (\href{http://www.eurekalert.org/pub_releases/2011-05/pp-snh051711.php}{summary}) for possible scholarly reuse; biodiversity data could be ideal. Also relevant for \#altmetrics.
 
@@ -587,9 +658,25 @@ Creative Commons, P2PU.
 \section{Figures}
 %This section is only kept separate during the drafting phase. The figures are to be included in the text as flow permits.
 \begin{itemize}
-	\item \href{http://friendfeed.com/danielmietchen/4174de55/looking-for-ideas-how-to-illustrate-our}{Call for ideas}
+	\item \href{http://www.science3point0.com/evomri/2011/06/08/drafting-proposals-in-the-open-entering-illustrations/}{Call for ideas}
+	\item \href{http://www.science3point0.com/evomri/2011/06/15/the-blind-men-and-the-elephant-open-science-version/}{three blind men}
 	\item the research cycle in a classical variant (publication as the last step) and a web one (continuous publication of the progress of a project)
 \end{itemize}
+
+\section{Possibly useful quotes}
+{\it See also \href{http://www.science3point0.com/coaspedia/index.php/User:Daniel_Mietchen/Talks/Slides/Quotes}{this collection}.}
+
+\href{http://ragesoss.com/blog/2006/11/20/top-10-reasons-why-academics-should-edit-wikipedia/comment-page-1/#comment-17727}{``Before the wiki revolution, each time science advanced a new generation would bring out a new generation of textbooks. With the wiki revolution the bits of your work that are superseded will be replaced, and as language changes other bits will be rephrased. But those of your words that are still valid for future generations are likely to be read long after other works have come out of copyright.''}
+
+\href{http://blogs.discovermagazine.com/notrocketscience/2011/06/08/the-renaissance-man-how-to-become-a-scientist-over-and-over-again/}{``“Thirty years ago, you didn’t know what was going on in a different field and you did not have Google. It could take you months to figure out that an idea was a good or bad one. These days, you can get a good sense of that in a matter of minutes because information is much more accessible. That’s really, really huge. It makes it much easier to move from one field to another.”''}
+
+\href{http://knowledgeblog.org/}{Knowledge Blog}: "So what could be more fitting than to revamp science through a platform explicitly built to be revised, commented on, and updated?"
+
+\href{http://twitter.com/#!/egonwillighagen/statuses/39097468700336128}{Yesterday I asked one of my students if she knew what an encyclopedia is, and she said, Is it something like Wikipedia?}
+
+\href{http://friendfeed.com/cameronneylon/c476db70/imo-this-is-possibly-single-most-useful-thing-we}{Jason Priem: ``'How cool would it be to fork articles, a la Github''}
+
+\href{http://marciovm.com/i-want-a-github-of-science}{Marcio van Muhlen: ``We need a GitHub of Science.''}
 
 \section{Notes from earlier stages of the drafting process}
 %These notes mostly originated \href{http://species-id.net/wiki/Draft:Encyclopaedia_of_original_research}{on the wiki} and will be woven into the proposal or discarded during the drafting process.
@@ -600,15 +687,9 @@ Creative Commons, P2PU.
 
 Also cites Antonio Panizzi and mentions ADNI and Mendeley ("Many of the metrics and connections between papers aren?t accessible on the desktop, presumably because they require the server?s data and processing power, and finding them on the web interface feels vaguely opaque.").
 
-\subsection{Possibly useful quotes}
-\href{http://ragesoss.com/blog/2006/11/20/top-10-reasons-why-academics-should-edit-wikipedia/comment-page-1/#comment-17727}{``Before the wiki revolution, each time science advanced a new generation would bring out a new generation of textbooks. With the wiki revolution the bits of your work that are superseded will be replaced, and as language changes other bits will be rephrased. But those of your words that are still valid for future generations are likely to be read long after other works have come out of copyright.''}
-
-\href{http://blogs.discovermagazine.com/notrocketscience/2011/06/08/the-renaissance-man-how-to-become-a-scientist-over-and-over-again/}{``“Thirty years ago, you didn’t know what was going on in a different field and you did not have Google. It could take you months to figure out that an idea was a good or bad one. These days, you can get a good sense of that in a matter of minutes because information is much more accessible. That’s really, really huge. It makes it much easier to move from one field to another.”''}
-
 
 \subsection{In focus: The encyclopaedia of original research}
 
-*\href{http://twitter.com/#!/egonwillighagen/statuses/39097468700336128}{Yesterday I asked one of my students if she knew what an encyclopedia is, and she said, Is it something like Wikipedia?}
 . merging research projects, and linking them with each other as well as with the concepts and methods behind them.
 
 <del>and with any info about the giants, on whose shoulders they have been built</del>
@@ -621,14 +702,8 @@ Also cites Antonio Panizzi and mentions ADNI and Mendeley ("Many of the metrics 
 *EOR: \href{http://www.science3point0.com/coaspedia/index.php/Proposals:Wikimedia_Deutschland/2010/Wissenswert/Wissenschaft_als_Wiki/English}{earlier version}
 
 
-:comment on "Encyclopaedia" (incl. etymology/ kids; could go to the OLPC part), on it being \href{http://www.opendefinition.org/}{open} and on it being a federation of wikis
+:comment on the EoR being \href{http://www.opendefinition.org/}{open} and on it being a federation of wikis
 
-
-::::::<blockquote>''How cool would it be to fork articles, a la Github.'' - \href{http://friendfeed.com/cameronneylon/c476db70/imo-this-is-possibly-single-most-useful-thing-we}{Jason Priem}</blockquote>
-
-::::::<blockquote>''We need a GitHub of Science.'' - \href{http://marciovm.com/i-want-a-github-of-science}{Marcio van Muhlen}</blockquote>
-
-</del>
 \subsubsection{Motivation}
 Including definition of goal. Follow SMART scheme.
 
@@ -741,6 +816,7 @@ Time constrained.''
 	\item FirstMonday - \href{http://firstmonday.org/htbin/cgiwrap/bin/ojs/index.php/fm/article/view/583/504}{interview with Linus Torvalds on motivations behind open-sourcing Linux}
 	\item Note to self: For basic help with GitHub, see \href{http://help.github.com/git-cheat-sheets/}{http://help.github.com/git-cheat-sheets/ } .
 \end{itemize}
+
 
 \section{Potential funding schemes}
 \subsection{Calls for proposals}

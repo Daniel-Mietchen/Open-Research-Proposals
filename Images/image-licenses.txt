@@ -1,0 +1,3 @@
+For licensing information pertaining to the images in this directory, please refer to their appearance in the draft text at https://github.com/Daniel-Mietchen/Open-Research-Proposals/blob/master/open-drafting.tex (also accessible via https://github.com/Daniel-Mietchen/Open-Research-Proposals/blob/master/open-drafting.pdf ).
+
+If the image used in the draft has been derived from another one, the derivations are briefly summed up after the last dash (-) in the file name, and the source image is included as well.
