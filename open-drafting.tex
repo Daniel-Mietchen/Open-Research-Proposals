@@ -16,8 +16,8 @@
 \usepackage{movie15}
 
 %% The amssymb package provides various useful mathematical symbols
-\usepackage{amssymb}
-\usepackage{textcomp} % for \textmu
+%\usepackage{amssymb}
+%\usepackage{textcomp} % for \textmu
 %\usepackage{ftnright}% for footnotes in twocolumn mode
 %\interfootnotelinepenalty=100
 %\usepackage[binary]{SIunits}
@@ -29,8 +29,7 @@
 %% for the whole article with \linenumbers.
 \usepackage{lineno}
 \usepackage{setspace} %allows to reduce the linespacing
-%\linenumbers
-%\bibliographystyle{elsarticle-harv}
+\linenumbers
 
 \begin{document}
 
@@ -42,7 +41,7 @@
 		\begin{itemize}
 			\item This file serves the collaborative drafting of a project proposal on an\\ 
 			{\bf Encyclopaedia of (and GitHub for) science}, 
-			as explained in \href{http://www.science3point0.com/evomri/2011/05/03/drafting-proposals-in-the-open-sketching-out-project-ideas/}{this blog post}. The .tex file was started by pasting below the leftovers from the \href{http://species-id.net/w/index.php?title=Draft:Encyclopaedia_of_original_research&oldid=5524}{drafting of the above blog post}. We then turned this into \href{http://en.wikibooks.org/wiki/LaTeX}{ \LaTeX~format} and continue drafting that way (cf.\ \href{https://github.com/Daniel-Mietchen/Open-Research-Proposals/commits/master}{version history}).
+			as explained in \href{http://www.science3point0.com/evomri/2011/05/03/drafting-proposals-in-the-open-sketching-out-project-ideas/}{this blog post}. The .tex file was started by pasting below the leftovers from the \href{http://species-id.net/w/index.php?title=Draft:Encyclopaedia_of_original_research&oldid=5524}{drafting of the above blog post}. We then turned this into \href{http://en.wikibooks.org/wiki/LaTeX}{ \LaTeX~format} and continue drafting that way \href{https://github.com/Daniel-Mietchen/Open-Research-Proposals/commits/master}{on GitHub} (cf.\ \href{https://github.com/Daniel-Mietchen/Open-Research-Proposals/commits/master}{version history}; {\bf \href{http://help.github.com/}{help available}}).
 			\item Unless something is clearly marked as being imported from elsewhere, all of this text is licensed 
 			\href{http://creativecommons.org/publicdomain/zero/1.0/}{CC0/Public Domain}, 
 			while the \href{https://github.com/Daniel-Mietchen/Open-Research-Proposals/blob/master/open-drafting.tex}{\LaTeX~code} 
@@ -588,6 +587,7 @@ Further thoughts:
 	\item language issues
 	\item \href{http://wiki.laptop.org/go/WikiPack}{WikiPack}
 	\item mention \href{http://www.olpcnews.com/content/education/how_khan_academy_can_help_olpc.html}{How Khan Academy Can Help OLPC} (\href{http://seidensj.wordpress.com/2011/06/06/next-steps-with-khan-academy-olpc-translations-sugar-activities-and-etoys-videos/}{perhaps} \href{http://blog.laptop.org/2011/06/06/khan-academy-videos-and-olpc/}{in conjunction} with \href{http://www.teachaclass.org/}{Teach A Class}) and \href{http://www.hesperian.org/publications_download.php}{Hesperian Foundation}, which already supported \href{http://site.ebrary.com/lib/hesperian/docDetail.action?docID=10411911}{Where there is No Doctor}
+	\item \href{http://blogs.ukoln.ac.uk/patientsparticipate/}{"Patients participate" project to provide synopses of medical research papers}
 \end{itemize}
 
 %possibly useful illustrations
@@ -802,7 +802,23 @@ research; it involves the entire process by which man profits by his inheritance
 	\item *\href{http://cameronneylon.net/blog/michael-nielsen-the-credit-economy-and-open-science/}{Giving credit is key}, and if wiki contributions (or any other science 2.0 activities) would be recognized in academic career terms (\#altmetrics; requires \href{http://marciovm.com/michael-nielsen-on-the-future-of-science functional reputation systems}), scientists would be willing to reallocate their time accordingly
 
 
-	\item '''What does "publishing" mean in a wiki context?''' The current use of the term "publishing" in itself can be taken as an illustration of how commercial codes and practices seeping into academic culture have not been counteracted successfully since the invention of the Web. In academic CVs, research output in print only (and in electronic but non-open access format) still figures as a "publication", even though the meaning of "to publish" as "make generally known" and "disseminate to the public" has seen fundamental and indeed groundbreaking changes with the Web as a publishing platform. Indeed, "the public" itself has changed fundamentally because today, a "publication" can be made accessible on the web '''without''' \href{http://scientopia.org/blogs/bookoftrogool/2010/03/15/battle-of-the-opens/ "a subscription, per-article, or other fee ... by the reader or the reader's proxy (e.g. a library)"}. Had academic institutions been more interested in the benefit offered by such opportunities, publishing openly would be much more widely accepted today. In this light, nothing should be claimed to be a "publication" any longer unless it is open, maybe even '''in the sense of Open publishing''': \href{http://en.wikipedia.org/w/index.php?title=Special:Cite&page=Open_publishing&id=383242580}{"Open publishing is a process of creating news or other content that is transparent to the readers. They can contribute a story and see it instantly appear in the pool of stories publicly available. Those stories are filtered as little as possible to help the readers find the stories they want. Readers can see editorial decisions being made by others. They can see how to get involved and help make editorial decisions. If they can think of a better way for the software to help shape editorial decisions, they can copy the software because it is free and change it and start their own site. If they want to redistribute the news, they can, preferably on an open publishing site."}
+	\item '''What does "publishing" mean in a wiki context?''' The current use of the term "publishing" in itself can be taken as an 
+	illustration of how commercial codes and practices seeping into academic culture have not been counteracted successfully 
+	since the invention of the Web. In academic CVs, research output in print only (and in electronic but non-open access 
+	format) still figures as a "publication", even though the meaning of "to publish" as "make generally known" and "disseminate 
+	to the public" has seen fundamental and indeed groundbreaking changes with the Web as a publishing platform. Indeed, 
+	"the public" itself has changed fundamentally because today, a "publication" can be made accessible on the web '''without''' 
+	\href{http://scientopia.org/blogs/bookoftrogool/2010/03/15/battle-of-the-opens/ "a subscription, per-article, or other fee ... by 
+	the reader or the reader's proxy (e.g. a library)"}. Had academic institutions been more interested in the benefit offered by 
+	such opportunities, publishing openly would be much more widely accepted today. In this light, nothing should be claimed 
+	to be a "publication" any longer unless it is open, maybe even '''in the sense of Open publishing''': 
+	\href{http://en.wikipedia.org/w/index.php?title=Special:Cite&page=Open_publishing&id=383242580}{"Open publishing is a 
+	process of creating news or other content that is transparent to the readers. They can contribute a story and see it instantly 
+	appear in the pool of stories publicly available. Those stories are filtered as little as possible to help the readers find the 
+	stories they want. Readers can see editorial decisions being made by others. They can see how to get involved and help 
+	make editorial decisions. If they can think of a better way for the software to help shape editorial decisions, they can copy 
+	the software because it is free and change it and start their own site. If they want to redistribute the news, they can, 
+	preferably on an open publishing site."}
 \end{itemize}
 
 \subsubsection{Notes}
@@ -835,6 +851,7 @@ research; it involves the entire process by which man profits by his inheritance
 	\item FirstMonday - \href{http://firstmonday.org/htbin/cgiwrap/bin/ojs/index.php/fm/article/view/583/504}{interview with Linus Torvalds on motivations behind open-sourcing Linux}
 	\item real-time visualization of Wikipedia edits:\href{https://github.com/edsu/wikistream}{Wikistream} 
 	\item Candidate for article-level metrics: Wikipedia links \href{https://github.com/Daniel-Mietchen/linkypedia}{Linkypedia} 
+	\item \href{http://dx.doi.org/10.1087/20100308}{50 million scholarly articles have been published so far}
 	\item Note to self: For basic help with GitHub, see \href{http://help.github.com/git-cheat-sheets/}{http://help.github.com/git-cheat-sheets/ } .
 \end{itemize}
 
